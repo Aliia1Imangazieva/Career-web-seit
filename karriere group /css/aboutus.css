@@ -1,0 +1,606 @@
+.aboutusBannerTop {
+    width: 100%;
+    height: 286px;
+    background-image: url('../assets/img/bunner.top.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.aboutusBannerTop h1 {
+    font-size: 35px;
+    font-family: 'Montserrat';
+    color: white;
+    margin: 50px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .aboutusBannerTop {
+        width: 100%;
+        height: 85px;
+        background-image: url('../assets/img/aboutUsBannerTop.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .progressBarAlign {
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutusBannerTop h1 {
+        font-size: 20px;
+        margin: 0;
+        margin-left: 80px;
+    }
+
+}
+
+.paralax {
+    background: url(../assets/img/parallax.png);
+    background-attachment: fixed;
+    height: 360px;
+}
+
+.paralaxText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paralaxText h1 {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 30px;
+    color: #030303;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.paralaxText h2 {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 18px;
+    color: #030303;
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+.paralaxText p {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 18px;
+    color: #646464;
+    margin: 0;
+    margin-bottom: 150px;
+}
+
+.bottomContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomContentPart1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.bottomContentPart1Left img {
+    width: 375px;
+    height: 375px;
+}
+
+.bottomContentPart1Left h1 {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 500;
+    color: #030303;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bottomContentPart1Left h2 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+    color: #030303;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bottomContentPart1Right h3 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
+    color: #646464;
+    margin: 0;
+}
+
+.bottomContentPart1Right p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: normal;
+    color: #646464;
+    margin-top: 5px;
+}
+
+.bottomContentPart2 {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+}
+
+.bottomContentPart2Top {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomContentPart2TopContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomContentPart2TopLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomContentPart2TopRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.bottomContentPart2TopLeft h1 {
+    color: #646464;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin: 0;
+
+}
+
+.bottomContentPart2TopLeft span {
+    color: #646464;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    margin: 0;
+
+}
+
+.bottomContentPart2TopLeft p {
+    color: #646464;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    margin: 0;
+    margin-top: 20px;
+}
+
+.bottomContentPart2TopRight img {
+    margin-top: 40px;
+    width: 212px;
+    height: 212px;
+}
+
+.bottomContentPart2TopRight h2 {
+    color: #030303;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.bottomContentPart2TopRight h3 {
+    color: #646464;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 120px;
+}
+
+.bottomContentPart2Bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.bottomContentPart2TopContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomContentPart2BottomLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomContentPart2BottomRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.bottomContentPart2BottomLeft h2 {
+    color: #030303;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.bottomContentPart2BottomRight span {
+    color: #646464;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+.bottomContentPart2BottomRight p {
+    color: #646464;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    margin: 0;
+    margin-top: 20px;
+}
+
+.bottomContentPart2BottomLeft img {
+    width: 212px;
+    height: 212px;
+}
+
+.bottomContentPart2BottomRight h1 {
+    color: #646464;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+.bottomContentPart2BottomLeft h3 {
+    color: #646464;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 120px;
+}
+
+.bottomContentPart2Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .paralax {
+        background: url(../assets/img/parallax.png);
+        background-attachment: fixed;
+        height: 360px;
+    }
+
+    .paralaxText {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .paralaxText h1 {
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-size: 20px;
+        color: #030303;
+        margin: 0;
+        margin-bottom: 13px;
+    }
+
+    .paralaxText h2 {
+        font-family: 'Montserrat';
+        font-weight: normal;
+        font-size: 14px;
+        color: #030303;
+        margin: 0;
+        margin-bottom: 51px;
+    }
+
+    .paralaxText p {
+        width: 258px;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 14px;
+        color: #646464;
+        margin: 0;
+        margin-bottom: 150px;
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+
+    .bottomContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottomContentPart1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .bottomContentPart1Left img {
+        width: 212px;
+        height: 212px;
+    }
+
+    .bottomContentPart1Left h1 {
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 500;
+        color: #030303;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .bottomContentPart1Left h2 {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 300;
+        color: #030303;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    .bottomContentPart1Right {
+        width: 280px;
+        text-align: left;
+    }
+
+    .bottomContentPart1Right h3 {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: bold;
+        color: #646464;
+        margin: 0;
+    }
+
+    .bottomContentPart1Right p {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: normal;
+        color: #646464;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .bottomContentPart2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .bottomContentPart2Top {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bottomContentPart2TopContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bottomContentPart2TopLeft {
+        width: 280px;
+        margin: 0 65px 0 65px;
+        text-align: left;
+    }
+
+    .bottomContentPart2TopRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 16px;
+    }
+
+    .bottomContentPart2TopLeft h1 {
+        color: #646464;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Open Sans';
+        margin: 0;
+
+    }
+
+    .bottomContentPart2TopLeft span {
+        color: #646464;
+        font-size: 14px;
+        font-weight: normal;
+        font-family: 'Open Sans';
+        margin: 0;
+
+    }
+
+    .bottomContentPart2TopLeft p {
+        color: #646464;
+        font-size: 14px;
+        font-weight: normal;
+        font-family: 'Open Sans';
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .bottomContentPart2TopRight img {
+        margin-top: 40px;
+        width: 212px;
+        height: 212px;
+    }
+
+    .bottomContentPart2TopRight h2 {
+        color: #030303;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .bottomContentPart2TopRight h3 {
+        color: #646464;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .bottomContentPart2Bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottomContentPart2TopContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bottomContentPart2BottomLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottomContentPart2BottomRight {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .bottomContentPart2BottomLeft h2 {
+        color: #030303;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .bottomContentPart2BottomRight span {
+        color: #646464;
+        font-size: 14px;
+        font-weight: normal;
+        font-family: 'Open Sans';
+        margin: 0;
+    }
+
+    .bottomContentPart2BottomRight p {
+        color: #646464;
+        font-size: 14px;
+        font-weight: normal;
+        font-family: 'Open Sans';
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .bottomContentPart2BottomLeft img {
+        width: 212px;
+        height: 212px;
+        margin-top: 50px;
+    }
+
+    .bottomContentPart2BottomRight h1 {
+        color: #646464;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Open Sans';
+        margin: 0;
+    }
+
+    .bottomContentPart2BottomLeft h3 {
+        color: #646464;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+
+}
+
+/* _________________________________________________ */
+
+.photoGallery {
+    display: flex;
+}
+
+.columnImg {
+    display: flex;
+    flex-direction: column;
+}
+
+.photoBottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main {
+    margin-bottom: 90px;
+}
+
+@media (max-width: 480px) {
+    .photoGallery {
+        display: flex;
+        flex-direction: column;
+    }
+}

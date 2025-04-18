@@ -1,0 +1,338 @@
+.progressBarAlign {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.progressBar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #EFEFEF;
+}
+
+.progress-bar {
+    width: 0;
+    height: 30px;
+    background-color: #CBCBCB;
+    line-height: 15px;
+}
+
+.progressBarText {
+    width: 100%;
+}
+
+.progressBarTextLogo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 33%;
+}
+
+.progressBarTextLogo h1 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 130px;
+    margin-bottom: 7px;
+}
+
+.progressBarTextLogo h2 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.progressBarTextLogo img {
+    width: 93px;
+    height: 55px;
+    margin-bottom: 80px;
+}
+
+.progressBarText p {
+    height: 388px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 106px;
+    color: #646464;
+}
+
+.progressBarText button {
+    width: 155px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #030303;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #030303;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+}
+
+.progressBarText button:hover {
+    background-color: #030303;
+    border: none;
+    color: white;
+    border: 1px solid #030303;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .progressBarAlign {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .progressBar {
+        max-width: calc(100% - 90px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .textContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .progress-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #EFEFEF;
+    }
+
+    .progress-bar {
+        width: 0;
+        height: 15px;
+        background-color: #CBCBCB;
+        line-height: 15px;
+    }
+
+    .progressBarText {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .progressBarTextLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .progressBarTextLogo h1 {
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
+        margin-top: 80px;
+        margin-bottom: 7px;
+    }
+
+    .progressBarTextLogo h2 {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .progressBarTextLogo img {
+        width: 93px;
+        height: 55px;
+        margin-bottom: 50px;
+    }
+
+    .progressBarText p {
+        height: 388px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0 15% 50px 15%;
+        color: #646464;
+    }
+
+    .progressBarText button {
+        width: 155px;
+        height: 60px;
+        background-color: white;
+        border: 1px solid #030303;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        color: #030303;
+        margin-bottom: 0;
+    }
+
+    .progressBarText button:hover {
+        background-color: #030303;
+        border: none;
+        color: white;
+        border: 1px solid #030303;
+    }
+}
+
+/* Circle Progress Bar */
+
+.circleProgressBarContainer {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    background: url('../assets/img/background_progressbar.jpg');
+    background-attachment: fixed;
+    margin-bottom: 150px;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.circular-progress {
+    position: relative;
+    height: 178px;
+    /* Уменьшен размер для 4 прогресс-бара */
+    width: 178px;
+    /* Уменьшен размер для 4 прогресс-бара */
+    border-radius: 50%;
+    background: conic-gradient(white 0deg, rgba(255, 255, 255, 0.5) 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 158px;
+    /* Уменьшен размер для 4 прогресс-бара */
+    width: 158px;
+    /* Уменьшен размер для 4 прогресс-бара */
+    border-radius: 50%;
+    background: url('../assets/img/parallax.png');
+    background-attachment: fixed;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 45px;
+    /* Уменьшен размер для 4 прогресс-бара */
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: rgb(18, 18, 18);
+}
+
+.text {
+    font-size: 14px;
+    /* Уменьшен размер для 4 прогресс-бара */
+    font-weight: 300;
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    margin-top: 32px;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .circleProgressBarContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
+        background: url('../assets/img/parallax.png');
+        background-attachment: fixed;
+        margin-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .circle {
+        display: flex;
+        flex-direction: column;
+        background: none;
+    }
+    
+    .circular-progress {
+        position: relative;
+        height: 178px;
+        /* Уменьшен размер для 4 прогресс-бара */
+        width: 178px;
+        /* Уменьшен размер для 4 прогресс-бара */
+        border-radius: 50%;
+        background: conic-gradient(white 0deg, rgba(255, 255, 255, 0.5) 0deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .circular-progress::before {
+        content: "";
+        position: absolute;
+        height: 158px;
+        /* Уменьшен размер для 4 прогресс-бара */
+        width: 158px;
+        /* Уменьшен размер для 4 прогресс-бара */
+        border-radius: 50%;
+        background: url('../assets/img/parallax.png');
+        background-attachment: fixed;
+    }
+    
+    .progress-value {
+        position: relative;
+        font-size: 45px;
+        /* Уменьшен размер для 4 прогресс-бара */
+        font-weight: bold;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    
+    .text {
+        font-size: 14px;
+        /* Уменьшен размер для 4 прогресс-бара */
+        font-weight: 300;
+        font-family: 'Open Sans';
+        color: white;
+        text-align: center;
+        margin-top: 32px;
+    }
+}
